@@ -1,0 +1,91 @@
+.logo img {
+    width: 150px;
+}
+.logo {
+    width: 150px;
+    margin: 100px auto 0 auto;
+}
+.input-wrapper {
+    width: 400px;
+    margin: 20px auto 0 auto;
+}
+.searchbar {
+    width: 400px;
+    border-radius: 20px;
+    border: 1px solid #c4c4c4;
+    color: #5b5b5b;
+    padding: 10px;
+}
+.button-wrapper {
+    width: 80px;
+    margin: 20px auto 0 auto;
+}
+button {
+    border: 1px solid #1a5fd0;
+    background: #4285f3;
+    color: white;
+    border-radius: 5px;
+    padding: 8px 12px;
+}
+button:hover {
+    background: #5998ff;
+}
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    margin: 0;
+    color: #5b5b5b;
+}
+h2 {
+    font-size: 24px;
+    font-weight: normal;
+    margin: 5px 0;
+}
+ul {
+    padding-left: 0;
+}
+li {
+    font-size: 12px;
+    display: inline-block;
+}
+.result {
+    margin: 40px 0;
+}
+.numres {
+    margin: 30px 0 10px 0;
+}
+
+.header img{
+    height: 40px;
+}
+.header {
+    display: grid;
+    grid-template-columns: 135px 558px auto;
+    grid-column-gap: 10px;
+    border-bottom: 1px solid #c4c4c4;
+    padding: 10px;
+}
+.resform {
+    display: grid;
+    grid-template-columns: auto 115px;;
+}
+.content {
+    padding-left: 140px;
+    width: 700px;
+}
+a {
+    color: #1a0dab;
+}
+a:visited {
+    color: #660099;
+}
+h2 a {
+    text-decoration: none;
+}
+.smalltext {
+    color: black;
+    margin: 0;
+}
+p {
+    line-height: 1.5;
+}
