@@ -3,7 +3,7 @@ const express = require('express')
 const router = express.Router()
 
 // Create POST controller
-router.get ('/', (req, res) => {
+router.post ('/', (req, res) => {
     let results = [{
         title: 'JS tutorials',
         description: 'The best JavaScript tutorials in the galaxy!',
