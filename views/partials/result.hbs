@@ -1,0 +1,11 @@
+      <div class="result">
+        <p class="smalltext">{{result.url}}</p>
+        <h2><a href="{{result.url}}">{{result.title}}</a></h2>
+        <p> {{result.description}}
+        </p>
+        <ul>
+          {{#each result.links as |l|}}
+          <li><a href="{{l.url}}">{{l.title}}</a></li>
+          {{/each}}
+        </ul>
+      </div>
