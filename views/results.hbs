@@ -8,6 +8,7 @@
     <div class="content">
       <div class="numres">
         <p>{{results.length}} Results</p>
+        {{#if results.length}}
       </div>
       {{#each results as |e|}}
       <div class="result">
@@ -22,4 +23,7 @@
         </ul>
       </div>
       {{/each}}
+            {{else}}
+      <span>No results to these terms</span>
+      {{/if}}
     </div>
