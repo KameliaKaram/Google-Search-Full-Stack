@@ -44,8 +44,12 @@ router.post ('/', (req, res) => {
             }
         ]
     }]
+
+    console.log(req.body.searchterm)
+    results = results.filter(e=> e.title.includes(req.body.searchterm))
     res.render ('results', {results})
 })
+
 
 
 // Export module
