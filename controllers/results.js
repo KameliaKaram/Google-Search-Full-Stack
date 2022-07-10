@@ -6,7 +6,7 @@ const Results = require('../models/results')
 // Create POST controller
 router.post ('/', async (req, res) => {
     let results= await Results.find({
-        title: req.body.searchterm
+        title: { $regex: req.body.searchterm, $options: 'i' }
     })
 
     console.log(req.body.searchterm)
